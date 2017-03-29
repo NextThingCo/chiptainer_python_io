@@ -1,5 +1,5 @@
 image: docker:latest
-tags: [qemu-arm]
+tags: 53e6fbea
 
 services:
   - docker:dind
