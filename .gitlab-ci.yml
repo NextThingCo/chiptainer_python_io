@@ -1,5 +1,4 @@
 image: docker:latest
-tags: 53e6fbea
 
 services:
   - docker:dind
