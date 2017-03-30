@@ -13,6 +13,7 @@ before_script:
   - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN $CI_REGISTRY
 
 build:
+  tags: [qemu-arm]
   stage: build
   script:
     # - mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc  
